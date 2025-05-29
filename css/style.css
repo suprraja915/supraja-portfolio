@@ -52,6 +52,7 @@ section {
 }
 
 #contact .btn {
+    margin: 5px;
     background-color: #1abc9c;
     color: white;
 }
@@ -76,4 +77,10 @@ section {
 section.in-view {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 30px 15px;
+    }
 }
